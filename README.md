@@ -1,1 +1,0 @@
-# olejarz_kacper_rep_obiektowe
