@@ -3,7 +3,7 @@ public class ZadanieTablic {
         Tablicadwuwymiarowa();
     }
     private static void Tablicadwuwymiarowa(){
-        int[][] tablica = new int[4][3];
+        int[][] tablica = new int[2][2];
         tab2[0][0] = 1;
         tab2[0][1] = 2;
         tab2[0][2] = 3;
