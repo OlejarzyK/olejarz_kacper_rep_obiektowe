@@ -1,0 +1,25 @@
+class PierwszyObiekt {
+    public static void main(String[]args){
+        // Zdefiniowanie i stworzenie obiektu
+        ObiektPudelko op = new ObiektPudelko();
+        System.out.println("Domyslna wartosc: " + op.wysokosc);
+
+        op.wysokosc = 100;
+        System.out.println("Po zmodyfikowaniu "  + op.wysokosc) ;
+
+        Osoba os = new Osoba();
+        System.out.println(os.imie);
+        System.out.println(os.nazwisko);
+
+    }
+}
+[09:18]
+// Stworzony obiekt
+class ObiektPudelko{
+    // public - dostep wszedzie
+    public int wysokosc = 10;
+    public int szerokosc = 20;
+    public int gleblokosc = 30;
+    // private - tylko w obrebie danej klasy
+    //private String sekret = "sekret";
+}
